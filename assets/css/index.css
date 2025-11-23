@@ -1,0 +1,87 @@
+@import url('./poppins.css');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(180deg, #FF9B63 0%, #db632c 100%);
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+.tela__inicial {
+  height: 99.8vh;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.tela__inicial__conteudo {
+  text-align: center;
+}
+
+.logoempresa {
+  position: absolute;
+  bottom: 5%;
+  width: 99.6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.logoempresa img {
+  width: 48px;
+}
+
+/* ids */
+.step01 {
+  background-color: #fff;
+  height: 80%;
+}
+
+
+.flexCustom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.gap-4 {
+  gap: 16px;
+}
+
+.btn-login {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 10px;
+  width: 350px;
+  display: block;
+  margin: 10px auto;
+}
+
+.btn-register {
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 10px;
+  width: 350px;
+  margin: 10px auto;
+  display: block;
+}
+
+.btn-login:hover,
+.btn-register:hover {
+  background-color: #FF800B;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
