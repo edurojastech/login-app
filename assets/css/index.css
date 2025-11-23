@@ -40,14 +40,13 @@ body {
 /* ids */
 .step01 {
   background-color: #fff;
-  height: 80%;
+  height: 75%;
 }
 
 .step01__content {
-  height: 400px;
+  height: 350px;
   text-align: center;
 }
-
 
 .flexCustom {
   display: flex;
