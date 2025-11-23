@@ -43,6 +43,11 @@ body {
   height: 80%;
 }
 
+.step01__content {
+  height: 400px;
+  text-align: center;
+}
+
 
 .flexCustom {
   display: flex;
@@ -84,4 +89,16 @@ body {
   color: #fff;
   transition: 0.4s;
   cursor: pointer;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #D0D0D0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #FF800B !important;
 }
