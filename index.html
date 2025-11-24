@@ -4,53 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LoginApp</title>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="assets/css/index.css">
+
+  <script src="./assets/js/stepsComponent.js" defer></script>
+  <script src="./assets/js/startComponent.js" defer></script>
   <script src="./assets/js/index.js" defer></script>
 </head>
 <body>
-  
-  <div id="start" class="animate__animated animate__fadeIn">
-    <div id="telaInicial" class="tela__inicial flexCustom">
-      <div class="tela__inicial__conteudo">
-        <img src="./assets/images/logo.svg" alt="">
-        <h1 class="poppins-semibold">aliments</h1>
-        <h4 class="poppins-regular">Food Delivery Services</h4>
-      </div>
-    </div>
-    <div class="logoempresa">
-      <img src="./assets/images/infinite-logo.svg" alt="">
-      <span class="poppins-bold" style="color: #fff;">LOOPR</span>
-    </div>
-  </div>
-
+  <div id="start" class="animate__animated animate__fadeIn"></div>
   <div id="step01" style="height: 100%;" class="animate__animated animate__fadeInUp">
     <div class="flexCustom step01">
-      <div class="step01__content flexCustom gap-4" id="desc01">
-        <img src="./assets/images/img-step01.svg" alt="" width="200">
-        <h1 style="color: #FF800B">Best Prices & Deals</h1>
-        <p class="poppins-regular" style="color: #595959">Find your favorite Meals at the best prices with exclusive deals only on aliments app.</p>
-      </div>
-
-      <div class="step01__content flexCustom gap-4" id="desc02">
-        <img src="./assets/images/step02.svg" alt="" width="200">
-        <h1 style="color: #FF800B">Track your Orders</h1>
-        <p class="poppins-regular" style="color: #595959">Track your orders in realtime from the app</p>
-      </div>
-
-      <div class="step01__content flexCustom gap-4" id="desc03">
-        <img src="./assets/images/step03.svg" alt="" width="200">
-        <h1 style="color: #FF800B">Free and Fast Delivery</h1>
-        <p class="poppins-regular" style="color: #595959">Free and fast delivery for all meals above ₹100.</p>
-      </div>
-
+      <div class="flexCustom step01" id="blocoSteps"></div>
       <div style="flex-direction: row; margin-top: 64px;" class="flexCustom gap-4">
-        <span class="dot active" onclick="app.hideItens('desc01', 'dot1')" id="dot1"></span>
-        <span class="dot" onclick="app.hideItens('desc02', 'dot2')" id="dot2"></span>
-        <span class="dot" onclick="app.hideItens('desc03', 'dot3')" id="dot3"></span>
+        <span class="dot active" onclick="app.hideItens('blocoStep1', 'dot1')" id="dot1"></span>
+        <span class="dot" onclick="app.hideItens('blocoStep2', 'dot2')" id="dot2"></span>
+        <span class="dot" onclick="app.hideItens('blocoStep3', 'dot3')" id="dot3"></span>
       </div>
     </div>
 

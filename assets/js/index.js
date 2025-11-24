@@ -13,7 +13,7 @@ const app = {
   },
 
   hideItens(item, idDot) {
-    document.querySelectorAll('.step01__content').forEach(element => {
+    document.querySelectorAll('.step__content').forEach(element => {
       element.style.display = 'none'
     });
 
@@ -26,6 +26,6 @@ const app = {
 }
 
 app.hide('step01')
-app.hide('desc03')
-app.hide('desc02')
+app.hide('blocoStep3')
+app.hide('blocoStep2')
 app.show('step01', 'start')
