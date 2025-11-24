@@ -41,7 +41,7 @@ body {
 /* ids */
 .step01 {
   background-color: #fff;
-  height: 72%;
+  height: 70%;
 }
 
 .step01__content {
@@ -70,7 +70,7 @@ body {
   padding: 20px 10px;
   width: 350px;
   display: block;
-  margin-top: 24px;
+  margin-top: 20px;
 }
 
 .btn-register {
