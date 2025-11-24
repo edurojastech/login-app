@@ -11,6 +11,7 @@ body {
   background: linear-gradient(180deg, #FF9B63 0%, #db632c 100%);
   font-family: "Poppins", sans-serif;
   width: 100%;
+  overflow-y: hidden;
 }
 
 .tela__inicial {
@@ -40,7 +41,7 @@ body {
 /* ids */
 .step01 {
   background-color: #fff;
-  height: 75%;
+  height: 70%;
 }
 
 .step01__content {
