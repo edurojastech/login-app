@@ -1,7 +1,7 @@
 const steps = [
   {
     stepId: 1,
-    img: "./assets/images/img-step01.svg",
+    img: "./assets/images/step01.svg",
     title: "Best Prices & Deals",
     description: "Find your favorite Meals at the best prices with exclusive deals only on aliments app."
   },
@@ -25,13 +25,12 @@ const templateSteps = (id, imagem, title, description) => {
   return `
     <div class="step__content flexCustom gap-4" id="blocoStep${id}">
       <img src="${imagem}" alt="" width="200">
-      <h1 style="color: #FF800B">${title}</h1>
-      <p class="poppins-regular" style="color: #595959">${description}</p>
+      <h2 style="color: #FF800B">${title}</h2>
+      <p class="poppins-regular" style="color: #595959; width: 280px">${description}</p>
     </div>`
 }
 
 const stepsBlock = document.getElementById("blocoSteps")
-
 stepsBlock.innerHTML = steps.map((step) => {
   const { stepId, img, title, description } = step
   return templateSteps(stepId, img, title, description)

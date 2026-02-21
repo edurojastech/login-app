@@ -20,9 +20,9 @@ body {
   transition: 0.5s;
 }
 
-.tela__inicial__conteudo {
+/* .tela__inicial__conteudo {
   text-align: center;
-}
+} */
 
 .logoempresa {
   position: absolute;
@@ -42,12 +42,13 @@ body {
 .step01 {
   background-color: #fff;
   height: 70%;
+  width: 100%;
+  padding-top: 60px;
 }
 
 .step__content {
   height: 350px;
   text-align: center;
-  padding: 0 16px;
 }
 
 .flexCustom {
@@ -71,6 +72,8 @@ body {
   width: 350px;
   display: block;
   margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .btn-register {
@@ -81,6 +84,8 @@ body {
   padding: 20px 10px;
   width: 350px;
   display: block;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .btn-login:hover,

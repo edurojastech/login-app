@@ -1,0 +1,1 @@
+const segment=document.getElementById("segment"),buttons=document.querySelectorAll(".segment-btn");buttons.forEach((e=>{e.addEventListener("click",(()=>{buttons.forEach((e=>e.classList.remove("active"))),e.classList.add("active"),"email"===e.dataset.type?segment.classList.add("email-active"):segment.classList.remove("email-active")}))}));

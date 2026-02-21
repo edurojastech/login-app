@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Login</title>
+<link rel="stylesheet" href="./assets/css/toggle.css">
+<script src="./assets/js/toggle.js" defer></script>
+<style>
+  body {
+    background: #e9e9e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+    padding: 12px 18px;
+  }
+
+  .login__title {
+    text-align: left;
+    line-height: 1rem;
+    font-size: 12px;
+    margin: 48px 0;
+    width: 420px;
+    max-width: 100%;
+  }
+</style>
+</head>
+<body>
+
+  <div class="login__title">
+    <h1 class="poppins-bold">Login Account</h1>
+    <h2 class="poppins-semibold" style="color: #595959;">Hello, welcome back to our account</h2>
+  </div>
+
+  <div class="segment-container" id="segment">
+    <div class="slider"></div>
+    <button class="segment-btn active poppins-semibold" data-type="phone">Phone Number</button>
+    <button class="segment-btn poppins-semibold" data-type="email">Email</button>
+  </div>
+</body>
+</html>
